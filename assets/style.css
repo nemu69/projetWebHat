@@ -20,28 +20,27 @@ header
 	border-color: coral;
 }
 
-header button#recherche
+header #recherche
 {
 	width : auto;
 	height : auto;
-	margin-right : 40em;
 }
 
-header input#panier
+header #panier
 {
-	max-width : 6%;
-	margin-bottom: -15px;
+	max-width : 7%;
 }
 
-header li	/* aligner */
-{
-	display : inline-block;
+#navigation li {
+  display: inline;
 }
 
 
-header nav /* Centrer barre de navigation */
-{
-	text-align: center;
+#navigation {
+  margin: 0 ;
+  padding: 0 ;
+  list-style: none ;
+  text-align: center ;
 }
 
 header a /* Recherche */
@@ -56,6 +55,7 @@ section
 	border-bottom-width: 5px;
 	border-color: grey;
 	text-align: center;
+	margin-bottom: 10px;
 	
 }
 
@@ -66,22 +66,31 @@ section#corps h1
 
 article img
 {
-	max-width: 20em;
+	max-width: 15em;
 }
 
-article
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section #produits li
 {
 	text-align: justify;
 	vertical-align: middle;
 	display: inline-block;
+	text-decoration: none;
 }
 
 footer
 {
 	text-align: center;
+	margin-bottom: 20px;
 }
 
-footer li+ li
+footer a+ li
 {
 	border-left: solid;
 	margin-left: 10px;
