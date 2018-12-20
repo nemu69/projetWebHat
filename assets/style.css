@@ -24,23 +24,25 @@ header #recherche
 {
 	width : auto;
 	height : auto;
+	margin-bottom : 35px;
 }
 
 header #panier
 {
-	max-width : 7%;
+	max-width : 14%;
 }
 
-#navigation li {
-  display: inline;
+ul#navigation li
+{
+	display: inline-block;
 }
 
 
 #navigation {
-  margin: 0 ;
-  padding: 0 ;
-  list-style: none ;
-  text-align: center ;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
 }
 
 header a /* Recherche */
@@ -82,6 +84,7 @@ section #produits li
 	vertical-align: middle;
 	display: inline-block;
 	text-decoration: none;
+	color: black;
 }
 
 footer
@@ -95,11 +98,13 @@ footer a+ li
 	border-left: solid;
 	margin-left: 10px;
 	padding-left: 10px;
+
 }
 
 footer li
 {
 	display: inline;
+	color: black;
 }
 
 @media only screen and (min-width : 481px) and (max-width : 1024px)
