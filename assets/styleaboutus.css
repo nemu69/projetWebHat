@@ -79,11 +79,11 @@ ul
 }
 
 aside#who {
-    width: 40%;
+    width: 38%;
     padding-left: .5rem;
     margin-left: .5rem;
     float: right;
-    box-shadow: inset 1.5px -5px 5px 1px #6D6D6D;
+    box-shadow: inset 1.5px -5px 2px 0px #6D6D6D;
     color: #000000;
 }
 
