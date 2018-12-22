@@ -5,13 +5,20 @@ body
   background-image: url("images/background.jpg");
   background-size: cover;
   background-attachment: fixed;
+  color: white;
+  font-family: "Oswald", sans-serif;
 }
 
+header img#titre
+{
+	margin-right: 450px;
+	width : 40%;
+}
 
 header img#logo
 {
 	float : left;
-	width : 7%;
+	width : 28%;
 }
 
 header
@@ -29,7 +36,7 @@ header #recherche
 
 header #panier
 {
-	max-width : 14%;
+	max-width : 30%;
 	margin-left: 50%;
 }
 
@@ -39,7 +46,8 @@ ul#navigation li
 }
 
 
-#navigation {
+#navigation 
+{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -54,9 +62,6 @@ header a /* Recherche */
 
 section
 {
-	border-bottom: groove;
-	border-bottom-width: 5px;
-	border-color: grey;
 	text-align: center;
 	margin-bottom: 10px;
 }
@@ -89,9 +94,10 @@ section #produits a
 	text-align: justify;
 	vertical-align: middle;
 	display: inline-block;
+	text-transform: UPPERCASE;
 	margin: 1%;
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 footer
@@ -111,7 +117,7 @@ footer a+ li
 footer li
 {
 	display: inline-block;
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
