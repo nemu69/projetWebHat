@@ -20,9 +20,11 @@ header img#logo
 
 header img#titre
 {
-	margin-right: 25%;
+	display: block;
 	width : 40%;
 	border-radius: 15px;
+	margin-left: auto; 
+	margin-right: 30em;
 }
 
 header
@@ -45,6 +47,7 @@ header #panier
 	max-width : 30%;
 	margin-left: 35%;
 	border-radius: 15px;
+	margin-top : 50px; 
 }
 
 ul#navigation li
@@ -174,6 +177,22 @@ section #produits a
 	font-weight: bold;
 }
 
+section #produits li
+{
+	display: inline;
+}
+
+.prixb
+{
+	text-decoration: line-through;
+	padding-right: 7px;
+}
+
+p.prixb, p.prix
+{
+	display: inline;
+}
+
 footer
 {
 	text-align: center;
@@ -183,21 +202,26 @@ footer
 	border-color: #696969;
 }
 
-footer a+ li
+footer li+ li
 {
 	border-left: solid;
 	margin-left: 10px;
 	padding-left: 10px;
-	margin-top: 15px;
-	background-color: white;
 }
 
 footer li
 {
+	margin-top: 10px;
 	display: inline-block;
-	color: black;
 	text-decoration: none;
 	background-color: white;
+
+}
+
+footer li a
+{
+	color: black;
+	text-decoration: none;
 }
 
 @media only screen and (min-width : 481px) and (max-width : 1024px)
