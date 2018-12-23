@@ -112,9 +112,10 @@ ul
   padding: 0;
 }
 
-#categorie a
+#categorie
 {
-	text-align: justify;
+	margin-top: 20px;
+	text-align: center;
 }
 
 #categorie li
@@ -206,7 +207,6 @@ footer li+ li
 {
 	border-left: solid;
 	margin-left: 10px;
-	padding-left: 10px;
 }
 
 footer li
