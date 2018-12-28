@@ -5,7 +5,7 @@ body
   background-size: cover;
   background-attachment: fixed;
   color: black;
-  font-family: "Oswald", sans-serif;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
 header img#logo
@@ -69,104 +69,80 @@ section
 	text-align: center;
 }
 
-section#corps
+#corps
 {
-	border-bottom: groove;
-	border-bottom-width: 10px;
-	border-color: #696969;
+	margin-top: 3%;
+	display: flex;
 }
 
-section#corps h1
+#produit h1
 {
-	text-transform: UPPERCASE;
-	font-size: 40px;
+	font-size: 150%;
 }
 
-section#corps p
+#produit strong
 {
-	background-color: white;
-	font-size: 125%;
+	font-size: 200%;
 }
 
-article img
+#img
 {
-	max-width: 15em;
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: 1%;
+	display: block;
+}
+
+#img img
+{
+	width: 50%;
+	text-align: none;
+	padding-top: 1%;
+	margin-right: 1%;
+	margin-bottom: auto;
 }
 
 ul
 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  	list-style-type: none;
+ 	margin: 0;
+  	padding: 0;
 }
 
-#categorie
+#detail #titre
 {
-	margin-top: 20px;
-	text-align: center;
+	font-style: unset;
+	text-decoration: underline;
 }
 
-#categorie li
+#detail
 {
-	display: inline;
-}
-
-#categorie #homme
-{
-	width: 10%;
-	margin-right: 20%;
-	border-radius: 15px;
-	color: black;
-	font-size: 25px;
-	font-family: "impact", sans-serif;
-}
-
-#categorie #femme
-{
-	width: 10%;
-	margin-right: 20%;
-	border-radius: 15px;
-	color: black;
-	font-size: 25px;
-	font-family: "impact", sans-serif;
-}
-
-#categorie #enfant
-{
-	width: 10%;
-	border-radius: 15px;
-	color: black;
-	font-size: 25px;
-	font-family: "impact", sans-serif;
-}
-
-section #produits img
-{
-	width: 100%;
-	border-radius: 15px;
-}
-
-section #produits a
-{
-	text-align: justify;
-	display: inline-block;
-	margin: 1%;
-	text-decoration: none;
-	color: black;
-	font-weight: bold;
+	display: block;
+	font-size: 120%;
 	background-color: white;
-	margin-right: 6%;
+	border: groove;
+	border-color: black;
+	border-width: 10px;
+	margin-right: 3%;
+	line-height: 150%;
 }
 
-section #produits li
+#detail #livraison
 {
-	display: inline;
+	text-decoration: underline red;
+}
+
+#detail form
+{
+	margin-bottom: 1%;
+	margin-top: 2%;
 }
 
 footer
 {
 	text-align: center;
 	margin-bottom: 20px;
+	margin-top: 2%;
 	border-top: groove;
 	border-top-width: 10px;
 	border-color: #696969;
@@ -184,20 +160,21 @@ footer li
 	display: inline-block;
 	text-decoration: none;
 	background-color: white;
-
+	color: black;
 }
 
 footer li a
 {
-	color: black;
 	text-decoration: none;
 }
 
 @media only screen and (min-width : 481px) and (max-width : 1024px)
 {
 	header,
+	body,
 	section#corps,
-	section#produits,
+	section#produit,
+	section#detail,
 	footer {
     width: 50%;
   }
