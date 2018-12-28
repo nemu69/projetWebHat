@@ -151,22 +151,29 @@ ul
 	border-radius: 15px;
 }
 
+#produits
+{
+	margin-bottom: 5%;
+}
+
 #produits img
 {
-	width: 100%;
-	border-radius: 15px;
+	width: 80%;
 }
 
 #produits a
 {
-	text-align: justify;
-	vertical-align: middle;
 	display: inline-block;
 	margin: 1%;
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
 	background-color: white;
+	border: solid;
+	border-color: #A9A9A9;
+	border-bottom-color: #000000;
+	border-top-color: #000000;
+	border-width: 10px;
 }
 
 #produits p
@@ -179,43 +186,51 @@ ul
 	display: inline;
 }
 
+#produits #label
+{
+	font-size: 150%;
+	font-family: 'Advent Pro';
+}
+
 .prixb
 {
 	text-decoration: line-through;
 	padding-right: 7px;
 }
 
-p.prixb, p.prix
+.prix
+{
+	background-color: #ff0000;
+}
+
+#produits p.prixb, #produits p.prix
 {
 	display: inline;
+	font-size: 150%;
 }
 
 footer
 {
 	text-align: center;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 	border-top: groove;
 	border-top-width: 10px;
 	border-color: #696969;
-}
-
-footer li+ li
-{
-	border-left: solid;
-	margin-left: 10px;
+	background-color: black;
 }
 
 footer li
 {
-	margin-top: 10px;
+	margin-top: 2%;
 	display: inline-block;
 	text-decoration: none;
-	background-color: white;
+	color: white;
+	margin-right: 8%;
 }
 
 footer li a
 {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 

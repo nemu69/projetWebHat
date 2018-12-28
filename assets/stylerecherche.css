@@ -140,27 +140,48 @@ ul
 	font-family: "impact", sans-serif;
 }
 
-section #produits img
+#produits img
 {
 	width: 100%;
 	border-radius: 15px;
 }
 
-section #produits a
+#produits a
 {
-	text-align: justify;
 	display: inline-block;
 	margin: 1%;
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
 	background-color: white;
-	margin-right: 6%;
+	border: solid;
+	border-color: #A9A9A9;
+	border-bottom-color: #000000;
+	border-top-color: #000000;
+	border-width: 10px;
 }
 
-section #produits li
+#produits #label
+{
+	font-size: 150%;
+	font-family: 'Advent Pro';
+}
+
+.prixb
+{
+	text-decoration: line-through;
+	padding-right: 7px;
+}
+
+.prixa
+{
+	background-color: #ff0000;
+}
+
+#produits p.prixb, #produits p.prix, #produits p.prixa
 {
 	display: inline;
+	font-size: 150%;
 }
 
 footer
@@ -170,12 +191,6 @@ footer
 	border-top: groove;
 	border-top-width: 10px;
 	border-color: #696969;
-}
-
-footer li+ li
-{
-	border-left: solid;
-	margin-left: 10px;
 }
 
 footer li

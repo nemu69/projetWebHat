@@ -148,12 +148,6 @@ footer
 	border-color: #696969;
 }
 
-footer li+ li
-{
-	border-left: solid;
-	margin-left: 10px;
-}
-
 footer li
 {
 	margin-top: 10px;

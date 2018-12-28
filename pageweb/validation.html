@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+  <html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../assets/stylevalidation.css">
+    <link rel="icon" type="image/png" href="../assets/images/logo_noël.bmp"/>
+    <title>HeadAddict</title>
+  </head>
+  <body background="../assets/images/fond_4.jpg"> 
+    <section class="row">
+      <section class="col-75">
+        <section class="container">
+        <form action="/action_page.php">
+          <section class="row">
+            <section class="col-50">
+              <h3>Coordonée</h3>
+              <label for="nom"><i class="fa fa-user"></i> Prénom et NOM</label>
+              <input type="text" id="nom" name="nom" placeholder="John DUPONT">
+              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input type="text" id="email" name="email" placeholder="john@example.com">
+              <label for="adr"><i class="fa fa-address-card-o"></i> Adresse</label>
+              <input type="text" id="adr" name="adresse" placeholder="54 rue de Bodelaire">
+              <label for="ville"><i class="fa fa-institution"></i> Ville</label>
+              <input type="text" id="ville" name="ville" placeholder="Nante">
+
+              <section class="row">
+                <section class="col-50">
+                  <label for="dep">Département</label>
+                  <input type="text" id="dep" name="departement" placeholder="Loire">
+                </section>
+                <section class="col-50">
+                  <label for="CP">Code Postal</label>
+                  <input type="text" id="CP" name="Code Postal" placeholder="44000">
+                </section>
+              </section>
+            </section>
+
+            <section class="col-50">
+              <h3>Paiement</h3>
+              <label for="fname">Carte de crédit</label>
+              <section class="icon-container">
+                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                <i class="fa fa-cc-discover" style="color:orange;"></i>
+              </section>
+              <label for="cnom">Carte de Nom</label>
+              <input type="text" id="cnom" name="cartenom" placeholder="John DUPONT">
+              <label for="ccnum">Numéro de la carte de crédit</label>
+              <input type="text" id="ccnum" name="cartenum" placeholder="1111-2222-3333-4444">
+              <label for="moisexp">Mois d'expiration</label>
+              <input type="text" id="moisexp" name="moisexp" placeholder="September">
+
+              <section class="row">
+                <section class="col-50">
+                  <label for="anneeexp">Année d'expiration</label>
+                  <input type="text" id="anneeexp" name="anneeexp" placeholder="2022">
+                </section>
+                <section class="col-50">
+                  <label for="cvv">CVV</label>
+                  <input type="text" id="cvv" name="cvv" placeholder="352">
+                </section>
+              </section>
+            </section>
+
+          </section>
+          <label>
+            <input type="checkbox" checked="checked" name="memeadr"> L'adresse de livraison est la même que celle de facturation </label>
+          <input type="submit" value="Continue to checkout" class="btn">
+        </form>
+      </section>
+    </section>
+
+    <section class="col-25">
+      <section class="container">
+        <h4>
+          <span class="price" style="color:black">
+            <i class="fa fa-shopping-cart"></i>
+            <b>4</b>
+          </span>
+        </h4>
+        <p><a href="#">Casquette femme Nike</a> <span class="price">20€</span></p>
+        <hr>
+        <p>Total <span class="price" style="color:black"><b>20€</b></span></p>
+      </section>
+    </section>
+  </section>
+  </body>
+  </html>
