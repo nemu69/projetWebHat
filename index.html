@@ -3,11 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="assets/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Advent%20Pro" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet' type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type="text/css">
 		<link rel="icon" type="image/png" href="assets/images/logo_noël.bmp"/>
 		<title>HeadAddict</title>
 	</head>
-	<body>
+	<body background="assets/images/fond_4.jpg">
 		<header>
 			<a  href="index.html"><img id="logo" src="assets/images/logo_noël.bmp" alt="Logo HeadAddict"></a>
 			<img id="titre" src="assets/images/titre_final.bmp" alt="Titre HeadAddict">
@@ -17,7 +18,7 @@
 			<nav>
 				<ul id=navigation>
 				<li id="recherche">
-				<form action="pageweb/recherche.html" method="post">
+				<form action="pageweb/recherche.html">
 					<input type="text" placeholder="Entrez un mot-clef" name="the_search">
 					<button type="submit"> 
 						Rechercher
@@ -29,49 +30,51 @@
 		</header>
 		<section id="corps">
 			<h1><img id="bienvenue" src="assets/images/Bienvenue.jpg" alt="Bienvenue sur notre site"></h1>
-			<p id="phrase"><strong>HeadAddict</strong> est le shop de référence pour trouver <strong>votre casquette !</strong> Découvrez une sélection de marques à petit prix avec un choix incroyable !</p>
+			<ul id="phrase"><strong>HeadAddict</strong> est le shop de référence pour trouver <strong>votre casquette !</strong> Découvrez une sélection de marques à petit prix avec un choix incroyable !</ul>
 		</section>
 		<ul id="categorie">
 			<li><a href="pageweb/article.html"><img id="homme" src="assets/images/Homme.bmp" alt="Homme"/></a></li>
 			<li><a href="pageweb/article.html"><img id="femme" src="assets/images/Femme.bmp" alt="Femme"/></a></li>
 			<li><a href="pageweb/article.html"><img id="enfant" src="assets/images/Enfant.bmp" alt="Enfant"/></a></li>
 		</ul>
-		<section id="produits">
+		<section id="promotion">
 			<h2><img id="Promotion" src="assets/images/Promotion.BMP" alt="Promotions"></h2>
+		</section>
+		<section id="produits">
 			<ul>
 				<li><a href="pageweb/article.html">
 					<article class="img-produit"><h3><img src="assets/images/nike1.jpg" alt="Nike"/></h3></article>
-					<p class="label">Nike - Beach Tennis</p>
+					<p id="label">Nike - Beach Tennis</p>
 					<p class="prixb">75€</p><p class="prix">37.50€</p>
 				</a></li>
 				<li><a href="pageweb/article.html">
 					<article class="img-produit"><h3><img src="assets/images/ny0.jpg" alt="New Era"/></h3></article>
-					<p class="label">Casquette New Era</p>
+					<p id="label">Casquette New Era</p>
 					<p class="prixb">30€</p><p class="prix">15€</p>
 				</a></li>
 				<li><a href="pageweb/article.html">
 					<article class="img-produit"><h3><img src="assets/images/Casquette_femme_NY2.jpg" alt="Casquette femme New York"/></h3></article>
-					<p class="label">Casquette New York</p>
+					<p id="label">Casquette New York</p>
 					<p class="prixb">50€</p><p class="prix">32.50€</p>
 				</a></li>
 				<li><a href="pageweb/article.html">
 					<article class="img-produit"><h3><img src="assets/images/casquette_femme_Adidas.jpg" alt="Casquette femme Adidas"/></h3></article>
-					<p class="label">Casquette Adidas - 5184</p>
+					<p id="label">Casquette Adidas - 5184</p>
 					<p class="prixb">30€</p><p class="prix">15€</p>
 				</a></li>
 				<li><a href="pageweb/article.html">
 					<article class="img-produit"><h3><img src="assets/images/ny5.jpg" alt="Casquette Yankee bleu New York"/></h3></article>
-					<p class="label">Casquette Yankee - New York</p>
+					<p id="label">Casquette Yankee - New York</p>
 					<p class="prixb">90€</p> <p class="prix">58.50€</p>
 				</a></li>
 				<li><a href="pageweb/article.html">
 					<article class="img-produit"><h3><img src="assets/images/ny10.jpg" alt="Casquette Yankee grise New York"/></h3></article>
-					<p class="label">Casquette Yankee - New York</p>
+					<p id="label">Casquette Yankee - New York</p>
 					<p class="prixb">90€</p><p class="prix">58.50€</p>
 				</a></li>
 				<li><a href="pageweb/article.html">
 					<article class="img-produit"><h3><img src="assets/images/casquette_femme_Nike2.jpg" alt="Casquette femme Nike Bordeau"/></h3></article>
-					<p class="label">Casquette Nike - Heavy Beach</p>
+					<p id="label">Casquette Nike - Heavy Beach</p>
 					<p class="prixb">50€</p><p class="prix">32.50€</p>
 				</a></li>
 			</ul>

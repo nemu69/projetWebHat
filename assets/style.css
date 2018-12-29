@@ -1,13 +1,11 @@
 body
 {
-
-	background-image: url(images/fond_4.jpg);
-	margin: auto;
-	max-width: 100rem;
-	background-size: cover;
-	background-attachment: fixed;
-	color: black;
-	font-family: "Oswald", sans-serif;
+  margin: auto;
+  max-width: 100rem;
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+  font-family: "Oswald", sans-serif;
 }
 
 header img#logo
@@ -119,7 +117,7 @@ ul
 	border-radius: 15px;
 	color: black;
 	font-size: 25px;
-	font-family: "impact", sans-serif;
+	font-family: "Oswald", sans-serif;
 }
 
 #categorie #femme
@@ -129,7 +127,7 @@ ul
 	border-radius: 15px;
 	color: black;
 	font-size: 25px;
-	font-family: "impact", sans-serif;
+	font-family: "Oswald", sans-serif;
 }
 
 #categorie #enfant
@@ -138,9 +136,14 @@ ul
 	border-radius: 15px;
 	color: black;
 	font-size: 25px;
-	font-family: "impact", sans-serif;
+	font-family: "Oswald", sans-serif;
 }
 
+#promotion h1
+{
+	text-transform: UPPERCASE;
+	font-size: 50px;
+}
 
 #Promotion
 {
@@ -153,7 +156,7 @@ ul
 	margin-bottom: 5%;
 }
 
-#produits li img
+#produits img
 {
 	width: 80%;
 }
@@ -183,7 +186,7 @@ ul
 	display: inline;
 }
 
-#produits .label
+#produits #label
 {
 	font-size: 150%;
 	font-family: 'Advent Pro';
