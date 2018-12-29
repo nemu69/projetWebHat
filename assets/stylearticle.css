@@ -139,12 +139,16 @@ ul
 	margin-top: 2%;
 }
 
-#comments
+#comments h1
 {
 	border-top-style: solid;
     border-top-color: black; 
     border-top-width: 20px;
     margin-top: 1em;
+    background-color: black;
+	border: groove;
+	border-color: grey;
+	color: white;
 }
 
 .comment
