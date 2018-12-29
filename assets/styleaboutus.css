@@ -1,11 +1,13 @@
 body
 {
-  margin: auto;
-  max-width: 100rem;
-  background-size: cover;
-  background-attachment: fixed;
-  color: black;
-  font-family: Tahoma, Geneva, sans-serif;
+
+	background-image: url(images/fond_4.jpg);
+	margin: auto;
+	max-width: 100rem;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	font-family: "Oswald", sans-serif;
 }
 
 header img#logo
@@ -64,84 +66,37 @@ header a /* Recherche */
 	text-decoration: none;
 }
 
+
+
 section
 {
 	text-align: center;
-}
-
-#corps
-{
-	margin-top: 3%;
-	display: flex;
-}
-
-#produit h1
-{
-	font-size: 150%;
-}
-
-#produit strong
-{
-	font-size: 200%;
-}
-
-#img
-{
-	text-decoration: none;
-	list-style-type: none;
-	margin-left: 1%;
-	display: block;
-}
-
-#img img
-{
-	width: 50%;
-	text-align: none;
-	padding-top: 1%;
-	margin-right: 1%;
-	margin-bottom: auto;
-}
-
-ul
-{
-  	list-style-type: none;
- 	margin: 0;
-  	padding: 0;
-}
-
-#detail #titre
-{
-	font-style: unset;
-	text-decoration: underline;
-}
-
-#detail
-{
 	display: block;
 	font-size: 120%;
 	background-color: white;
 	border: groove;
 	border-color: black;
 	border-width: 10px;
-	margin-right: 3%;
-	line-height: 150%;
+	margin: 10px 2em 10px 2em;
 }
 
-#detail #livraison
-{
-	text-decoration: underline red;
+aside#who {
+
+    width: 38%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    border-left-style: dotted;
+    border-left-color: black;
+    color: #000000;
 }
 
-#detail form
-{
-	margin-bottom: 1%;
-	margin-top: 2%;
+aside#who > p {
+    margin: .2rem;
 }
-
 
 footer
 {
-	margin-top: 2em;
 	text-align: center;
 	padding-bottom: 20px;
 	border-top: groove;
@@ -167,10 +122,8 @@ footer li a
 @media only screen and (min-width : 481px) and (max-width : 1024px)
 {
 	header,
-	body,
 	section#corps,
-	section#produit,
-	section#detail,
+	section#produits,
 	footer {
     width: 50%;
   }

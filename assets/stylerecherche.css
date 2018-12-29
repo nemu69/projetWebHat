@@ -187,24 +187,25 @@ ul
 footer
 {
 	text-align: center;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 	border-top: groove;
 	border-top-width: 10px;
 	border-color: #696969;
+	background-color: black;
 }
 
 footer li
 {
-	margin-top: 10px;
+	margin-top: 2%;
 	display: inline-block;
 	text-decoration: none;
-	background-color: white;
-
+	color: white;
+	margin-right: 8%;
 }
 
 footer li a
 {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
