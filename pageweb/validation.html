@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="../assets/images/logo_noël.bmp"/>
     <title>HeadAddict</title>
   </head>
-  <body background="../assets/images/fond_4.jpg"> 
+  <body> 
     <header>
       <a  href="../index.html"><img id="logo" src="../assets/images/logo_noël.bmp" alt="Logo HeadAddict"></a>
       <img id="titre" src="../assets/images/titre_final.bmp" alt="Titre HeadAddict">
@@ -15,43 +15,43 @@
         <img id="panier" src="../assets/images/shopping.bmp" alt="Panier">
       </a>
     </header>
-    <section id="corps">
-      <section class="col-75">
-        <section id="commande1">
+    <div id="corps">
+      <div class="col-75">
+        <div id="commande1">
         <form action="article.html">
-          <section id="corps">
-            <section class="col-50">
-              <h3>Coordonnée</h3>
+          <div id="corps2">
+            <div class="col-50">
+              <h2>Coordonnée</h2>
               <label for="nom"> Prénom et NOM</label>
               <input required type="text" id="nom" name="nom" placeholder="John DUPONT">
-              <label for="email"></i> Email</label>
+              <label for="email"> Email</label>
               <input required type="text" id="email" name="email" placeholder="john@example.com">
               <label for="adr"> Adresse</label>
               <input required type="text" id="adr" name="adresse" placeholder="54 rue de Bodelaire">
               <label for="ville"> Ville</label>
               <input required type="text" id="ville" name="ville" placeholder="Nante">
 
-              <section id="corps">
-                <section class="col-50">
+              <div id="corps3">
+                <div class="col-50">
                   <label for="dep">Département</label>
                   <input required type="text" id="dep" name="departement" placeholder="Loire Atlantique">
-                </section>
-                <section class="col-50">
+                </div>
+                <div class="col-50">
                   <label for="CP">Code Postal</label>
                   <input required type="text" id="CP" name="Code Postal" placeholder="44000">
-                </section>
-              </section>
-            </section>
+                </div>
+              </div>
+            </div>
 
-            <section class="col-50">
-              <h3>Paiement</h3>
+            <div class="col-50">
+              <h2>Paiement</h2>
               <label>Carte de crédit</label>
-              <section id="Carte">
+              <div id="Carte">
                 <img src="../assets/images/Visa.png" alt="Logo Visa">
                 <img src="../assets/images/CB.jpg" alt="Logo CB">
                 <img src="../assets/images/MasterCard.png" alt="Logo MasterCard">
                 <img src="../assets/images/PayPal1.png" alt="Logo PayPal">
-              </section>
+              </div>
               <label for="cnom">Nom de la carte.</label>
               <input required type="text" id="cnom" name="cartenom" placeholder="John DUPONT">
               <label for="ccnum">Numéro de la carte.</label>
@@ -59,29 +59,33 @@
               <label for="moisexp">Mois d'expiration de la carte.</label>
               <input required type="text" id="moisexp" name="moisexp" placeholder="September">
 
-              <section id="corps">
-                <section class="col-50">
+              <div id="corps4">
+                <div class="col-50">
                   <label for="anneeexp">Année d'expiration.</label>
                   <input required type="text" id="anneeexp" name="anneeexp" placeholder="2022">
-                </section>
-                <section class="col-50">
+                </div>
+                <div class="col-50">
                   <label for="cvv">CVV</label>
                   <input required type="text" id="cvv" name="cvv" placeholder="352">
-                </section>
-              </section>
-            </section>
+                </div>
+              </div>
+            </div>
 
-          </section>
+          </div>
           <label>
             <input required type="checkbox" checked="checked" name="memeadr"> L'adresse de livraison est identique à au lieu de facturation.
           </label>
-          <input required type="submit" value="Continuez la commande " class="CCommande">
+          <div class="CCommande">
+            <button type="submit">
+              Continuez la commande
+            </button>
+          </div>
         </form>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section id="col-25">
-      <section id="commande2">
+    <div id="col-25">
+      <div id="commande2">
         <h4>Article
           <span class="price" style="color:black">
             <b>1</b>
@@ -90,15 +94,14 @@
         <p><a href="article.html">Casquette Nike (modèle: noir, femme) "HypeBeast"</a><span class="price">20€</span></p>
         <hr>
         <p>Total <span class="price" style="color:black"><b>20€</b></span></p>
-      </section>
-    </section>
-  </section>
+      </div>
+    </div>
+  </div>
   <footer>
     <ul>
-      <a href="whoiam.html">
-      <li>
+      <li><a href="whoiam.html">
         Qui sommes-nous ?
-      </li></a>
+      </a></li>
       <li>Copyright 2018</li>
       <li>Copyright 2018</li>
       <li>Conditions générales</li>

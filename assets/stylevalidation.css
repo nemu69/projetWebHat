@@ -1,5 +1,6 @@
 body
 {
+  background-image: url("../assets/images/fond_4.jpg");
   background-size: cover;
   background-attachment: fixed;
   color: black;
@@ -33,7 +34,7 @@ header #panier
   margin-top: 2%;
 }
 
-#corps
+#corps, #corps2, #corps3, #corps4
 {
   display: -ms-flexbox;
   display: flex;
