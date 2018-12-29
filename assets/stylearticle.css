@@ -1,11 +1,13 @@
 body
 {
-  margin: auto;
-  max-width: 100rem;
-  background-size: cover;
-  background-attachment: fixed;
-  color: black;
-  font-family: Tahoma, Geneva, sans-serif;
+
+	background-image: url(images/fond_4.jpg);
+	margin: auto;
+	max-width: 100rem;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	font-family: "Oswald", sans-serif;
 }
 
 header img#logo
@@ -96,7 +98,6 @@ section
 #img img
 {
 	width: 50%;
-	text-align: none;
 	padding-top: 1%;
 	margin-right: 1%;
 	margin-bottom: auto;
@@ -138,8 +139,38 @@ ul
 	margin-top: 2%;
 }
 
+#comments
+{
+	border-top-style: solid;
+    border-top-color: black; 
+    border-top-width: 20px;
+    margin-top: 1em;
+}
+
+.comment
+{
+	margin-top: 30px;
+	margin-left: 3em;
+	padding-bottom: 1em;
+	display: block;
+	font-size: 90%;
+	background-color: white;
+	border: groove;
+	border-color: grey;
+	border-width: 2px;
+	margin-right: 3%;
+}
+
+
+textarea 
+{
+	margin-top: 2em;
+	resize: none;
+}
+
 footer
 {
+	margin-top: 2em;
 	text-align: center;
 	padding-bottom: 20px;
 	border-top: groove;
@@ -154,7 +185,7 @@ footer li
 	display: inline-block;
 	text-decoration: none;
 	color: white;
-	margin-right: 7%;
+	margin-right: 8%;
 }
 
 footer li a
@@ -162,7 +193,6 @@ footer li a
 	color: white;
 	text-decoration: none;
 }
-
 @media only screen and (min-width : 481px) and (max-width : 1024px)
 {
 	header,

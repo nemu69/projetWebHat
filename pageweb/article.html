@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../assets/stylearticle.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type="text/css">
 	  <link rel="icon" type="image/png" href="../assets/images/logo_noël.bmp" />
       <title>Vente de casquettes en ligne</title>
   </head>
-  <body background="../assets/images/fond_4.jpg"> 
+  <body> 
     <header>
       <a  href="../index.html"><img id="logo" src="../assets/images/logo_noël.bmp" alt="Logo HeadAddict"></a>
       <img id="titre" src="../assets/images/titre_final.bmp" alt="Titre HeadAddict">
@@ -16,7 +17,7 @@
       <nav>
         <ul id=navigation>
         <li id="recherche">
-        <form action="recherche.html">
+        <form action="recherche.html" method="post">
           <input type="text" placeholder="Entrez un mot-clef" name="the_search">
           <button type="submit"> 
             Recherche
@@ -33,9 +34,9 @@
     </article>
     <section id="detail">
     <section id="produit">
-      <h1>Casquette Nike (modèle: noir, femme)</h1>
+      <h1>Casquette femme Nike (modèle: noir)</h1>
       <h2>"HypeBeast"</h2>
-      <strong>20€</strong>
+      <strong>37,50€</strong>
     </section>
     <aside>
       <p>La casquette présente une fermeture à clip réglable à l'arrière pour une tenue personnalisée.</p>
@@ -55,7 +56,7 @@
           <li>Couleur : Noir</li>
           <li>Taille unique</li>
         </ul>
-      <form action="recherche.html">
+      <form action="recherche.html" method="post">
         <button type="submit"> 
           <a>Ajouter au panier</a> 
         </button>
@@ -63,18 +64,41 @@
     </aside>
     </section>
     </section>
+    <section id="comments">
+      <h1>Commentaires</h1>
+      <article class="comment">
+        <h2>Shan</h2>
+        <time datetime="2018-12-24T14:42">Publié le 24 décembre 14:42</time>
+        <p>J'ai acheté cette casquette et j'en suis satisfait. Je l'ai reçu rapidement dans le délai indiqué.
+Elle est conforme à sa description, noire, sobre, et de bonne qualité.
+Concernant la taille, c'est une taille unique, cependant elle me va parfaitement. Elle peut être facilement réglé grâce aux serrages possible à l'arrière de la casquette.
+</p>
+</article>
+<article class="comment">
+<h2>Isa</h2>
+<time datetime="2018-12-25T15:42">Publié le 25 décembre 15:42</time>
+<p>Casquette souple qui s’adapte à tous les tours de tête.
+Il y a un clip de serrage à l'arrière qui ressort ou rentre le lien de serrage dans la doublure de la casquette, il n'y aura rien qui "pendouillera" si vous avez un petit tour de tête, ce détail est bien pensé.
+La couleur est noire avec le petit logo en argenté brillant qui donne juste une petite touche élégante mais discrète.
+</p> </article>
+<form id="ecriture" method="post" action="article.html">
+<input type="hidden" name="Identifiant" value="123456">
+<textarea name="f_comments" cols="80" rows="7" placeholder="Écrire un commentaire client" required>
+</textarea>
+<input type="submit" value="Envoyer" />
+<input type="reset" value="Reinitialiser" />
+</form>
+</section>
+</section>
     <footer>
       <ul>
-        <a href="whoiam.html">
-        <li>
+        <li><a href="whoiam.html">
           Qui sommes-nous ?
-        </li></a>
-        <li>Copyright 2018</li>
+        </a></li>
         <li>Copyright 2018</li>
         <li>Conditions générales</li>
         <li>Conditions de ventes</li>
         <li>Mentions légales</li>
       </ul>
-    </footer>
-  </body>
+    </footer>  </body>
   </html>

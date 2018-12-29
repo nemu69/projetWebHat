@@ -1,5 +1,6 @@
 body
 {
+
 	background-image: url(images/fond_4.jpg);
 	margin: auto;
 	max-width: 100rem;
@@ -65,42 +66,38 @@ header a /* Recherche */
 	text-decoration: none;
 }
 
-section#corps
+
+
+section
 {
 	text-align: center;
-	font-size: 120%;
+	display: block;
+	font-size: 140%;
 	background-color: white;
 	border: groove;
 	border-color: black;
 	border-width: 10px;
-	margin: 2em 2em 1em 2em;
+	margin: 10px 2em 10px 2em;
 }
 
-#corps2
-{
-	display: flex;
-	flex-direction: row-reverse;
-}
+aside#who {
 
-section#who 
-{
-	display: block;
-    width: 50%;
-    padding-left: 1.5rem;
+    width: 38%;
+    padding-left: .5rem;
     margin-left: .5rem;
+    float: right;
     border-left-style: dotted;
     border-left-color: black;
+    color: #000000;
 }
 
-section#who > p 
-{
+aside#who > p {
     margin: .2rem;
 }
 
-#who2
+#iam
 {
-	display: block;
-	width: 50%;
+	float: left;
 }
 
 footer
@@ -115,7 +112,7 @@ footer
 
 footer li
 {
-	margin-top: 1%;
+	margin-top: 2%;
 	display: inline-block;
 	text-decoration: none;
 	color: white;
@@ -131,9 +128,7 @@ footer li a
 {
 	header,
 	section#corps,
-	section#corps2,
-	section#who,
-	section#who2,
+	section#produits,
 	footer {
     width: 50%;
   }

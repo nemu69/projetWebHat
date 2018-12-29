@@ -1,35 +1,34 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="../assets/stylerecherche.css">
-  <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
-  <link rel="icon" type="image/png" href="../assets/images/logo_noël.bmp" />
-  <title>Vente de casquettes en ligne</title>
+  <!DOCTYPE html>
+  <html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../assets/stylerecherche.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type="text/css">
+    <link rel="icon" type="image/png" href="../assets/images/logo_noël.bmp" />
+      <title>Vente de casquettes en ligne</title>
   </head>
-  <body background="../assets/images/fond_4.jpg">
-  <header>
-    <a  href="../index.html"><img id="logo" src="../assets/images/logo_noël.bmp" alt="Logo HeadAddict"></a>
-    <img id="titre" src="../assets/images/titre_final.bmp" alt="Titre HeadAddict">
-    <a href="validation.html">  
-      <img id="panier" src="../assets/images/shopping.bmp" alt="Panier">
-    </a>
-    <nav>
-      <ul id=navigation>
+  <body> 
+    <header>
+      <a  href="../index.html"><img id="logo" src="../assets/images/logo_noël.bmp" alt="Logo HeadAddict"></a>
+      <img id="titre" src="../assets/images/titre_final.bmp" alt="Titre HeadAddict">
+      <a href="validation.html">
+        <img id="panier" src="../assets/images/shopping.bmp" alt="Panier">
+      </a>
+      <nav>
+        <ul id=navigation>
         <li id="recherche">
-        <form action="recherche.html">
-          <input type="text" placeholder="Entrez un mot-clef" name="the_search">
-          <button type="submit">
+        <form action="recherche.html" method="post">
+          <input type="text" placeholder="Entrez un mot-clef" name="the_search" required>
+          <button type="submit"> 
             Recherche
-          </button> 
+          </button>
         </form>
         </li>
-      </ul>
-    </nav>
-  </header>
+        </ul>
+      </nav>
+    </header>
   <section id="corps">
     <h1>Voici le résultat de votre recherche.</h1>
-    <h2>"New Era" 10 modèles</h2>
   </section>
     <ul id="categorie">
       <li><a href="article.html"><img id="homme" src="../assets/images/Homme.bmp" alt="Homme"/></a></li>
@@ -37,50 +36,43 @@
       <li><a href="article.html"><img id="enfant" src="../assets/images/Enfant.bmp" alt="Enfant"/></a></li>
     </ul>
   <section id="produits">
+    <h2>"New Era" 10 modèles</h2>
       <ul>
-        <a href="article.html">
-        <li>
-          <article class="img-produit"><img src="../assets/images/ny2.jpg" alt="New York Yankees"/></article>
-          <p id="label">Casquette New York Yankees</p>
+        <li><a href="article.html">
+          <article class="img-produit"><h3><img src="../assets/images/ny2.jpg" alt="New York Yankees"/></h3></article>
+          <p class="label">Casquette New York Yankees</p>
           <p class="prix">60€</p>
-        </li>
-        </a><a href="article.html">
-        <li>
-          <article class="img-produit"><img src="../assets/images/ny0.jpg" alt="New Era"/></article>
-          <p id="label">Casquette New Era</p>
-          <p class="prixb">49.99€</p><p class="prixa">20€</p>
-        </li>
-        </a><a href="article.html">
-        <li>
-          <article class="img-produit"><img src="../assets/images/ny1.jpg" alt="New Era Gris"/></article>
-          <p id="label">Casquette New Era Gris</p>
+        </a></li>
+        <li><a href="article.html">
+          <article class="img-produit"><h3><img src="../assets/images/ny0.jpg" alt="New Era"/></h3></article>
+          <p class="label">Casquette New Era</p>
+          <p class="prixb">30€</p><p class="prixa">15€</p>
+        </a></li>
+        <li><a href="article.html">
+          <article class="img-produit"><h3><img src="../assets/images/ny1.jpg" alt="New Era Gris"/></h3></article>
+          <p class="label">Casquette New Era Gris</p>
           <p class="prix">29,99€</p>
-        </li>
-        </a><a href="article.html">
-        <li>
-          <article class="img-produit"><img src="../assets/images/ny3.jpg" alt="New Era 9Forty"/></article>
-          <p id="label">Casquette New Era 9Forty</p>
+        </a></li>
+        <li><a href="article.html">
+          <article class="img-produit"><h3><img src="../assets/images/ny3.jpg" alt="New Era 9Forty"/></h3></article>
+          <p class="label">Casquette New Era 9Forty</p>
           <p class="prix">49,99€</p>
-        </li>
-        </a><a href="article.html">
-        <li>
-          <article class="img-produit"><img src="../assets/images/ny6.jpg" alt="New Era 9Forty Jaune"/></article>
-          <p id="label">Casquette New Era 9Forty Jaune</p>
+        </a></li>
+        <li><a href="article.html">
+          <article class="img-produit"><h3><img src="../assets/images/ny6.jpg" alt="New Era 9Forty Jaune"/></h3></article>
+          <p class="label">Casquette New Era 9Forty Jaune</p>
           <p class="prix">55€</p>
-        </li>
-        </a><a href="article.html">
-        <li>
-          <article class="img-produit"><img src="../assets/images/ny8.jpg" alt="New Era MLB"/></article>
-          <p id="label">Casquette New Era MLB</p>
+        </a></li>
+        <li><a href="article.html">
+          <article class="img-produit"><h3><img src="../assets/images/ny8.jpg" alt="New Era MLB"/></h3></article>
+          <p class="label">Casquette New Era MLB</p>
           <p class="prix">30€</p>
-        </li>
-        </a><a href="article.html">
-        <li>
-          <article class="img-produit"><img src="../assets/images/ny4.jpg" alt="New Era MLB Rose"/></article>
-          <p id="label">Casquette New Era MLB Rose</p>
+        </a></li>
+        <li><a href="article.html">
+          <article class="img-produit"><h3><img src="../assets/images/ny4.jpg" alt="New Era MLB Rose"/></h3></article>
+          <p class="label">Casquette New Era MLB Rose</p>
           <p class="prix">55€</p>
-        </li>
-        </a>
+        </a></li>
       </ul>
   </section>
   <footer>
@@ -88,11 +80,10 @@
         <li><a href="whoiam.html">
           Qui sommes-nous ?
         </a></li>
-        <li>Copyright 2018</li>
-        <li>Copyright 2018</li>
-        <li>Conditions générales</li>
-        <li>Conditions de ventes</li>
-        <li>Mentions légales</li>
+        <li><a href="article.html">Copyright 2018</a></li>
+        <li><a href="article.html">Conditions générales</a></li>
+        <li><a href="article.html">Conditions de ventes</a></li>
+        <li><a href="article.html">Mentions légales</a></li>
       </ul>
     </footer>
 </body>

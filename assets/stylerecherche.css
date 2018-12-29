@@ -1,11 +1,13 @@
 body
 {
-  margin: auto;
-  max-width: 100rem;
-  background-size: cover;
-  background-attachment: fixed;
-  color: black;
-  font-family: Tahoma, Geneva, sans-serif;
+
+	background-image: url(images/fond_4.jpg);
+	margin: auto;
+	max-width: 100rem;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	font-family: "Oswald", sans-serif;
 }
 
 header img#logo
@@ -140,10 +142,14 @@ ul
 	font-family: "impact", sans-serif;
 }
 
-#produits img
+#produits
 {
-	width: 100%;
-	border-radius: 15px;
+	margin-bottom: 5%;
+}
+
+#produits li img
+{
+	width: 70%;
 }
 
 #produits a
@@ -161,7 +167,12 @@ ul
 	border-width: 10px;
 }
 
-#produits #label
+#produits li
+{
+	display: inline;
+}
+
+#produits .label
 {
 	font-size: 150%;
 	font-family: 'Advent Pro';
@@ -200,7 +211,7 @@ footer li
 	display: inline-block;
 	text-decoration: none;
 	color: white;
-	margin-right: 7%;
+	margin-right: 8%;
 }
 
 footer li a
