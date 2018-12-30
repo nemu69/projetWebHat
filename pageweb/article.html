@@ -18,7 +18,7 @@
         <ul id=navigation>
         <li id="recherche">
         <form action="recherche.html" method="post">
-          <input type="text" placeholder="Entrez un mot-clef" name="the_search">
+          <input type="text" placeholder="Entrez un mot-clef" name="the_search" required="">
           <button type="submit"> 
             Recherche
           </button>
@@ -27,30 +27,32 @@
         </ul>
       </nav>
     </header>
-    <section id="corps">
-    <article id="img">
-      <li><img src="../assets/images/casquette_femme_Nike1.jpg"></li>
-      <li><img src="../assets/images/casquette_femme_Nike3.jpg"></li>
-    </article>
+    <aside id="corps">
+    <ul id="img">
+      <li><img src="../assets/images/casquette_femme_Nike1.jpg" alt="casquette de face"></li>
+      <li><img src="../assets/images/casquette_femme_Nike3.jpg" alt="casquette de derriere"></li>
+    </ul>
+  </aside>
     <section id="detail">
-    <section id="produit">
-      <h1>Casquette femme Nike (modèle: noir)</h1>
-      <h2>"HypeBeast"</h2>
-      <strong>37,50€</strong>
-    </section>
-    <aside>
+      <h2>Casquette femme Nike (modèle: noir)</h2>
+      <h3>"HypeBeast"</h3>
+      <strong id="prix">37,50€</strong>
       <p>La casquette présente une fermeture à clip réglable à l'arrière pour une tenue personnalisée.</p>
-      <p id="titre"><strong>Avantages : </strong></p>
-      <li>Conception à six empiècements avec bande intérieure.</li>
-      <li>Œillets brodés pour plus d'aération.</li>
-      <li>Fermeture à clip réglable pour une tenue personnalisée.</li>
+      <p class="titrep"><strong>Avantages : </strong></p>
+      <ul>
+        <li>Conception à six empiècements avec bande intérieure.</li>
+        <li>Œillets brodés pour plus d'aération.</li>
+        <li>Fermeture à clip réglable pour une tenue personnalisée.</li>
+      </ul>
 
-      <p id="titre"><strong>Détails du produit :</strong></p>
-      <li>Composition : 70 % polyester / 30 % coton</li>
+      <p class="titrep"><strong>Détails du produit :</strong></p>
+     <ul>
+     <li>Composition : 70 % polyester / 30 % coton</li>
       <li>Lavage à la main</li>
       <li>Importé d'Angleterre</li>
       <li>Couleur affichée : Noir/Argent métallique</li>
       <li>Article : 405043-010</li>
+    </ul>
         <ul>
           <li id="livraison"><strong>Livraison et retour gratuits</strong></li>
           <li>Couleur : Noir</li>
@@ -58,11 +60,9 @@
         </ul>
       <form action="recherche.html" method="post">
         <button type="submit"> 
-          <a>Ajouter au panier</a> 
+          Ajouter au panier 
         </button>
       </form>
-    </aside>
-    </section>
     </section>
     <section id="comments">
       <h1>Commentaires</h1>
@@ -88,7 +88,6 @@ La couleur est noire avec le petit logo en argenté brillant qui donne juste une
 <input type="submit" value="Envoyer" />
 <input type="reset" value="Reinitialiser" />
 </form>
-</section>
 </section>
     <footer>
       <ul>

@@ -74,15 +74,17 @@ section
 #corps
 {
 	margin-top: 3%;
-	display: flex;
+	float: left;
+	max-width: 50%;
+	padding-left: 10em;
 }
 
-#produit h1
+#detail h2
 {
 	font-size: 150%;
 }
 
-#produit strong
+#prix
 {
 	font-size: 200%;
 }
@@ -110,21 +112,21 @@ ul
   	padding: 0;
 }
 
-#detail #titre
+#detail .titrep
 {
 	font-style: unset;
 	text-decoration: underline;
 }
 
-#detail
+aside + section#detail
 {
-	display: block;
 	font-size: 120%;
 	background-color: white;
 	border: groove;
 	border-color: black;
 	border-width: 10px;
 	margin-right: 3%;
+	margin-left: 60%;
 	line-height: 150%;
 }
 
