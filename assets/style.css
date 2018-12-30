@@ -222,7 +222,13 @@ footer li
 	display: inline-block;
 	text-decoration: none;
 	color: white;
-	margin-right: 8%;
+}
+
+footer li +li
+{
+	border-left-style: solid;
+	border-color: white;
+	padding-left: 8px;
 }
 
 footer li a
@@ -236,7 +242,7 @@ footer li a
 	header img#logo
 	{
 	float : none;
-	width : 100%;
+	width : 50%;
 	}
 	#titre,
 	#bienvenue,
@@ -246,21 +252,33 @@ footer li a
 
 	header #panier
 {
-	max-width: 30%;
+	max-width: 25%;
+}
+header nav li#recherche {
+	max-width: 100%;
+	margin-left: 10em;
+	}
+
+#Promotion
+{
+	width: 60%;
+	border-radius: 15px;
 }
 
-	header #recherche{
-	max-width: 30%;
-	}
-
-	section#produits li{
+	section#produits li+li{
 		display: block;
-		width: 100%;
-		padding-top: 10em;
+		padding-top: 15em;
 	}
 
-	footer li {
-		width: 60%;
+	#produits a
+{
+	width: 70%;
+}
+
+
+
+	footer ul li {
+		font-size: 2em;
 		padding-bottom: 10px;
 	}
 }

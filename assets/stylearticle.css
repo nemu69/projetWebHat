@@ -130,6 +130,12 @@ aside + section#detail
 	line-height: 150%;
 }
 
+#add
+{
+	width: 10em;
+	height: 5em;
+}
+
 #detail #livraison
 {
 	text-decoration: underline red;
@@ -191,7 +197,13 @@ footer li
 	display: inline-block;
 	text-decoration: none;
 	color: white;
-	margin-right: 8%;
+}
+
+footer li +li
+{
+	border-left-style: solid;
+	border-color: white;
+	padding-left: 20px;
 }
 
 footer li a
@@ -201,14 +213,54 @@ footer li a
 }
 @media only screen and (min-width : 481px) and (max-width : 1024px)
 {
-	header,
-	body,
-	section#corps,
-	section#produit,
-	section#detail,
-	footer {
-    width: 50%;
-  }
+	header img#logo
+	{
+	float : none;
+	width : 50%;
+	}
+	#titre,
+	#bienvenue{
+		display: none;
+	}
+
+	header #panier
+	{
+	max-width: 25%;
+	}
+	
+	header nav li#recherche {
+	max-width: 100%;
+	margin-left: 10em;
+	}
+
+	#img img {
+		display: block;
+		width: 80%; 
+	}
+
+	aside + section#detail
+{
+	font-size: 60%;
+	background-color: white;
+	border: groove;
+	border-color: black;
+	border-width: 10px;
+	margin-right: 3%;
+	margin-left: 60%;
+	line-height: 150%;
+}
+
+	#produits a
+{
+	width: 70%;
+}
+
+
+
+	footer ul li {
+		font-size: 2em;
+		padding-bottom: 10px;
+	}
 }
 
 input[type="submit"]{border:none; background:#000; color:#fff}

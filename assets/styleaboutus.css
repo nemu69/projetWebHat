@@ -116,7 +116,13 @@ footer li
 	display: inline-block;
 	text-decoration: none;
 	color: white;
-	margin-right: 8%;
+}
+
+footer li +li
+{
+	border-left-style: solid;
+	border-color: white;
+	padding-left: 20px;
 }
 
 footer li a
@@ -124,14 +130,51 @@ footer li a
 	color: white;
 	text-decoration: none;
 }
+
 @media only screen and (min-width : 481px) and (max-width : 1024px)
 {
-	header,
-	section#corps,
-	section#produits,
-	footer {
-    width: 50%;
-  }
+	header img#logo
+	{
+	float : none;
+	width : 50%;
+	}
+	#titre,
+	#bienvenue
+	{
+	max-width: 25%;
+	}
+	
+	header nav li#recherche {
+	max-width: 100%;
+	margin-left: 10em;
+	}
+
+	#corps {
+	text-align: center;
+	font-size: 140%;
+	border: groove;
+	border-color: black;
+	border-width: 10px;
+	margin: 10px 2em 10px 2em;
+	}
+
+	aside#who {
+
+    width: 100%;
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+    border-bottom-style: dotted;
+    border-bottom-color: black;
+    border-bottom-width: 14px;
+    color: #000000;
+	}
+
+
+
+	footer ul li {
+		font-size: 2em;
+		padding-bottom: 10px;
+	}
 }
 
 input[type="submit"]{border:none; background:#000; color:#fff}

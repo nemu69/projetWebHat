@@ -154,7 +154,13 @@ footer li
   display: inline-block;
   text-decoration: none;
   color: white;
-  margin-right: 7%;
+}
+
+footer li +li
+{
+  border-left-style: solid;
+  border-color: white;
+  padding-left: 20px;
 }
 
 footer li a
@@ -164,12 +170,44 @@ footer li a
 }
 
 
-@media (min-width : 481px) and (max-width : 1024px)
+@media only screen and (min-width : 481px) and (max-width : 1024px)
 {
-  #corps {
+  header img#logo
+  {
+  float : none;
+  width : 50%;
+  }
+
+  header #panier{
+    display: none;
+  }
+
+header nav li#recherche {
+  max-width: 100%;
+  margin-left: 10em;
+  }
+
+ #corps {
     flex-direction: column-reverse;
   }
   #col-25 {
     margin-bottom: 20px;
+  }
+
+  section#produits li+li{
+    display: block;
+    padding-top: 15em;
+  }
+
+  #produits a
+{
+  width: 70%;
+}
+
+
+
+  footer ul li {
+    font-size: 2em;
+    padding-bottom: 10px;
   }
 }

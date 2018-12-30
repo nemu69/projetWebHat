@@ -211,7 +211,13 @@ footer li
 	display: inline-block;
 	text-decoration: none;
 	color: white;
-	margin-right: 8%;
+}
+
+footer li +li
+{
+	border-left-style: solid;
+	border-color: white;
+	padding-left: 20px;
 }
 
 footer li a
@@ -222,12 +228,47 @@ footer li a
 
 @media only screen and (min-width : 481px) and (max-width : 1024px)
 {
-	header,
-	section#corps,
-	section#produits,
-	footer {
-    width: 50%;
-  }
+	header img#logo
+	{
+	float : none;
+	width : 50%;
+	}
+	#titre,
+	#bienvenue{
+		display: none;
+	}
+
+	header #panier
+{
+	max-width: 25%;
+}
+header nav li#recherche {
+	max-width: 100%;
+	margin-left: 10em;
+	}
+
+#Promotion
+{
+	width: 60%;
+	border-radius: 15px;
+}
+
+	section#produits li+li{
+		display: block;
+		padding-top: 15em;
+	}
+
+	#produits a
+{
+	width: 70%;
+}
+
+
+
+	footer ul li {
+		font-size: 2em;
+		padding-bottom: 10px;
+	}
 }
 
 input[type="submit"]{border:none; background:#000; color:#fff}
